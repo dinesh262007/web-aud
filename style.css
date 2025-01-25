@@ -7,15 +7,21 @@
 .slider {
     display: flex; 
     justify-content: center; 
-    margin-top: 60px; 
+    background-color: bisque;
+    padding-bottom: 10px;
+}
+
+.slider img {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #hero-carousel {
-    width: 50%; 
+    width: 80%; 
 }
 
 .carousel-item {
-    height: 400px;
+    height: 430px;
 }
 
 .c-im {
@@ -25,7 +31,6 @@
 }
 
 .boxes {
-    margin-top: 30px;
     height: auto; 
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +41,7 @@
 
 .box {
     height: auto; 
-    width: 22.5%;
+    width: 30%;
     background-color: white;
     padding: 15px;
     margin: 10px;
@@ -99,4 +104,33 @@ footer {
     background-color: aliceblue; 
     color: #333; 
     font-size: 0.85rem; 
+}
+
+@media (max-width: 1200px) {
+    .box {
+        width: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    .box {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+    }
+
+    .foot-panel {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .icons {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
