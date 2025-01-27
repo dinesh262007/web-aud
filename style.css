@@ -99,10 +99,6 @@ footer {
 }
 
 @media (max-width: 750px) {
-    .box {
-        width: 100%;
-    }
-    
     .carousel-item {
     height: 465px;
    }
@@ -118,3 +114,10 @@ footer {
         gap: 10px;
     }
 }
+
+@media(max-width: 900px){
+    .box{
+        width:100%;
+    }
+}
+
