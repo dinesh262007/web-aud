@@ -91,11 +91,7 @@ footer {
     margin-top: 10px;
 }
 
-@media (max-width: 1200px) {
-    .box {
-        width: 30%;
-    }
-}
+
 
 @media (max-width: 750px) {
     .box {
