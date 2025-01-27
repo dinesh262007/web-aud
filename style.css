@@ -9,7 +9,7 @@
     justify-content: center; 
     background-color: bisque;
     padding-bottom: 10px;
-    padding-top:10px;
+    padding-top: 10px;
 }
 
 #hero-carousel {
@@ -17,7 +17,7 @@
 }
 
 .carousel-item {
-    height: 430px;
+    height: 440px;
 }
 
 .c-im {
@@ -89,6 +89,13 @@ footer {
 
 .copyright {
     margin-top: 10px;
+}
+
+
+@media (max-width: 1200px) {
+    .box {
+        width: 30%;
+    }
 }
 
 @media (max-width: 750px) {
