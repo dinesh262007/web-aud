@@ -115,7 +115,7 @@ footer {
     }
 }
 
-@media(max-width: 900px){
+@media(max-width: 825px){
     .box{
         width:100%;
     }
