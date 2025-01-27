@@ -102,6 +102,10 @@ footer {
     .box {
         width: 100%;
     }
+    
+    .carousel-item {
+    height: 465px;
+   }
 
     .foot-panel {
         flex-direction: column;
